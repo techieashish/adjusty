@@ -66,7 +66,7 @@ There are three functions that return KPI data from the API:
    >> {'result_parameters': {'end_date': '2015-01-01', 'period': 'week', 'start_date': '2015-01-10', 'attribution_type': 'click', 'grouping': ['network', 'periods'], 'attribution_source': 'dynamic', 'countries': ['in'], 'sandbox': False, 'day_def': '24h', 'utc_offset': '+05:30', 'kpis': ['sessions']}, 'result_set':{'token': 'abcd1234', 'networks': [{'token': 'abcd1234', 'name': 'Organic', 'periods': [{'period': '0', 'kpi_values': [00000]}, {'period': '1', 'kpi_values': [0000]}, {'period': '2', 'kpi_values': [000]}]}, {'token': 'abcd', 'name': 'SMS', 'periods': [{'period': '0', 'kpi_values': [0000]} 
 
 ```
-You can issue calls for multiple app tokens at the same time and group for example by group=['app', 'network']. This will return KPI data for the two apps, grouped by the app and all its network trackers.
+You can issue calls for multiple app tokens at the same time and group for example by group=['app', 'network'].  This will return KPI data for the two apps, grouped by the app and all its network trackers.
 
 
 Contributions and bug reports are only acceptable as GitHub Pull Requests and issues. Thanks!
